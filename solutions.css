@@ -8,6 +8,7 @@
     background-color: red;
 }
 
+
 /* esercizio 2 */
 
 .ex-2-square{
@@ -17,3 +18,15 @@
 .ex-2-square:active{
     width: 100%;
 }
+
+
+/* esercizio 3 */
+
+.ex-3-square{
+    transition: border-radius 2s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
