@@ -72,3 +72,14 @@
 .ex-7-img:hover{
     filter: grayscale(1);
 }
+
+/* esercizio 8 */
+
+.ex-8-img{
+    transition: border-radius 2s, filter 2s;
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: sepia(0.8) saturate(1);
+}
