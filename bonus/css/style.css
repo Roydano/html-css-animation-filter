@@ -1,0 +1,53 @@
+/* formattazione pagina */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* animazione */
+
+
+.animation{
+    width: 500px;
+    height: 300px;
+    background-color: #00b4ff;
+    position: relative;
+    overflow: hidden;
+}
+
+.subject{
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    width: 30%;
+
+}
+
+
+.animation .move{
+    animation: sky 20s linear infinite;
+    position: relative;
+
+}
+
+@keyframes sky{
+    0% {left:0}
+    10% {left:-240px}
+    20% {left:-480px}
+    30% {left:-720px}
+    40% {left:-960px}
+    50% {left:-1200px}
+    60% {left:-1440px}
+    70% {left:-1680px}
+    80% {left:-1920px}
+    100% {left:-2260px}      
+    
+   
+   
+}
+
