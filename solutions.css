@@ -152,7 +152,40 @@
 
 }
 
+
+/* esercizio 13 */
+
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: button-top2 2s linear;
+           
     
+}
+
+@keyframes button-top2 {
+    0% {left: 15px; top: -10px;}
+    20% {left: 170px; top: -10px;}
+    40% {left: 170px; top: 60px;}
+    60% {left: 0; top: 60px;}
+    80% {left: -15px; top: -10px;}
+    100% {left: 15px; top: -10px;}
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: button-bottom2 2s linear; 
+           
+}
+
+
+@keyframes button-bottom2 {
+    0% {left: 100px; top: 60px;}
+    20% {left: -15px; top: 60px;}
+    40% {left: -15px; top: -10px;}
+    60% {left: 170px; top: -10px;}
+    80% {left: 170px; top: 60px;}
+    100% {left: 100px; top: 60px;}
+}
+
 
 
 
